@@ -1,0 +1,11 @@
+1) simple redirection droite: "ls > toto" ls redirigé dans toto en effaçant toto s'il existe
+
+2) double redirection droite: "ls >> toto" ls redirigé dans toto en ajoutant à la fin (pas d'effacage si toto existe)
+
+3) simple redirection gauche: "ls < toto" redirection de toto dans entrée cat
+
+4) double redirection gauche: "ls << toto" execute ls des que toto est entré
+
+5) double &: "aze && ls" tant que aze n'est pas valide, ls n'est pas éxécuté
+
+6) double ||: "ls || aze" execute les commandes jusqu'à ce qu'une soit valide (ici: ls est exécuté mais pas aze)
